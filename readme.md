@@ -1,16 +1,13 @@
-# @mtproto/core
+# mtproto-core
 
-[![NPM](https://img.shields.io/npm/v/@mtproto/core.svg?style=flat-square)](https://www.npmjs.com/package/@mtproto/core)
-[![GitHub Actions](https://img.shields.io/github/actions/workflow/status/alik0211/mtproto-core/test.yml?branch=master&style=flat-square)](https://github.com/alik0211/mtproto-core/actions?query=branch%3Amaster)
-[![Downloads](https://img.shields.io/npm/dm/@mtproto/core?style=flat-square)](https://www.npmjs.com/package/@mtproto/core)
-[![Telegram channel](https://img.shields.io/badge/Telegram-channel-blue?style=flat-square&logo=telegram)](https://t.me/mtproto_core)
+## This is a fork of [alik0211/mtproto-core](https://github.com/alik0211/mtproto-core).
+The purpose of this fork is to have up-to-date TL schema for [Telekite](https://telekite.vercel.app). Maybe, in the future, also have it operate on `BigInts` instead of `strings` for performance.
 
-Telegram API JS (MTProto) client library for Node.js and browser
+Telegram API JS (MTProto) client library for <s>Node.js and</s> browser
 
-* **Actual.** 158 layer in the API scheme
-* **Fast.** For the Node.js, it uses the TCP and crypto module. For the browser, it uses WebSocket and window.crypto
+* **Actual.** 170 layers in the API schema
+* **Fast.** Uses WebSocket and window.crypto
 * **Easy.** Cryptography is hidden. Work with the API at a high level
-* **Smart.** Automatically sync authorization on all DCs
 * **2FA.** Use the library's built-in function to calculate 2FA parameters
 * **Secure.** Complies with Telegram security guidelines
 

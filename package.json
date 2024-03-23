@@ -22,8 +22,8 @@
   "bugs": {
     "url": "https://github.com/alik0211/mtproto-core/issues"
   },
-  "author": "Ali Gasymov <alik0211alik@gmail.com> (https://gasymov.com/)",
-  "repository": "github:alik0211/mtproto-core",
+  "author": "Ali Gasymov <alik0211alik@gmail.com> (https://gasymov.com/), forked by kaizjen",
+  "repository": "github:kaizjen/mtproto-core",
   "files": [
     "/envs",
     "/src"
@@ -38,7 +38,7 @@
     "generate-builder": "node scripts/generate-builder.js",
     "generate-parser": "node scripts/generate-parser.js",
     "generate-tl": "run-p generate-builder generate-parser",
-    "prepublishOnly": "run-s generate-tl"
+    "prepare": "run-s generate-tl"
   },
   "license": "GPL-3.0",
   "dependencies": {
